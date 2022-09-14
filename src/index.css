@@ -1,13 +1,92 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form__container {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #f08080 0%, #9370db 100%);
+}
+
+.mb-3{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.form__heading {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+}
+.form__button {
+  width: 10%;
+  background-color: #6495ed;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.form__button:hover {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.form__submit-btn {
+  margin-top: 20px;
+  width: 10%;
+  color: rgb(2, 26, 10);
+  background-color: #6495ed;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.form__submit-btn:hover {
+  opacity: 0.9;
+}
+.content {
+  min-height: 73vh !important;
+}
+
+.bg{
+  min-height: 100vh;
+  background: linear-gradient(45deg, #f08080 0%, #9370db 100%); 
+}
+
+.btn{
+  width: 10%;
+  color: rgb(2, 26, 10);
+  padding: 10px 0px;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+
+.bg__container{
+  min-height: 100vh;
+  background: linear-gradient(45deg, #f08080 0%, #9370db 100%);
+}
+
+.reg__container{
+  min-height: 100vh;
+  background: linear-gradient(45deg, #f08080 0%, #9370db 100%);
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: flex-start; 
+  margin-top: 15px;
+}
+
+.nav-item{
+  list-style-type: none;
+  padding: 0 5px;
+  font-weight: 700;
+  color: #191970;
+  margin-bottom: 15px;
+}
+
+.navbar-brand{
+  font-weight: 500;
+  font-size: 150%;
 }
