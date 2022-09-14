@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-// import { FaAlignCenter } from "react-icons/fa";
 import { toast } from "react-toastify";
 import Header from "../components/Header";
 
 const HomePage = () => {
-  //const profilePIcDefault =
-   // "https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg";
 
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
